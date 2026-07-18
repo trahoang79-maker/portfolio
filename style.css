@@ -346,10 +346,9 @@ h4 {
 }
 
 .section {
-  padding: 1.5rem 0 4rem;
+  padding: clamp(2rem, 5vw, 4rem) 0;
   border-top: 1px solid var(--ink);
 }
-
 .section-heading {
   display: block;
   max-width: none;
@@ -1895,10 +1894,14 @@ h4,
 
 /* chỉnh vị trí phần Giới thiệu */
 #gioi-thieu {
-  padding-top: 0 !important;
+  padding-top: 2rem !important;
 }
 
 #gioi-thieu .section-heading {
-  margin-top: -3rem;
-  margin-bottom: 1rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+#gioi-thieu .intro-grid {
+  margin-top: 0;
 }
