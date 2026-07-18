@@ -1490,7 +1490,9 @@ h4,
 }
 
 .hero-text {
-  max-width: 30rem;
+  max-width: 700px;
+  margin: 30px auto 0;
+  text-align: center;
 }
 
 .hero-actions {
