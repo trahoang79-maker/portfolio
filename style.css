@@ -115,9 +115,9 @@ img {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   min-height: 88vh;
-  padding: clamp(4rem, 9vw, 8rem) 0;
+  padding: 6rem 0 8rem;
   border-bottom: 1px solid var(--ink);
 }
 
