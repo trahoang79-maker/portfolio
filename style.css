@@ -1902,3 +1902,15 @@ h4,
   margin-top: -3rem;
   margin-bottom: 1rem;
 }
+.intro-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-card {
+  order: 1;
+}
+
+.featured {
+  order: 2;
+}
