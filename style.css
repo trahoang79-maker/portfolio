@@ -1894,14 +1894,10 @@ h4,
 
 /* chỉnh vị trí phần Giới thiệu */
 #gioi-thieu {
-  padding-top: 2rem !important;
+  padding-top: 4rem !important;
 }
 
 #gioi-thieu .section-heading {
   margin-top: 0;
   margin-bottom: 2rem;
-}
-
-#gioi-thieu .intro-grid {
-  margin-top: 0;
 }
