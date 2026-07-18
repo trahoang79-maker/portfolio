@@ -1470,7 +1470,7 @@ body::selection {
 }
 
 h1 {
-  max-width: 700px;
+  max-width: none;
   margin: 0 auto;
   text-align: center;
   letter-spacing: -0.015em;
