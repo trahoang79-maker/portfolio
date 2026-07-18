@@ -351,17 +351,19 @@ h4 {
 }
 
 .section-heading {
-  display: grid;
-  grid-template-columns: minmax(0, 0.86fr) minmax(16rem, 0.54fr);
-  gap: 1.5rem;
-  align-items: end;
+  display: block;
   max-width: none;
   margin-bottom: 0.3rem;
 }
 
 .section-heading .eyebrow {
-  grid-column: 1 / -1;
   width: fit-content;
+  margin-bottom: 0.5rem;
+}
+
+.section-heading h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .overview-strip {
