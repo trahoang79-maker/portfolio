@@ -644,6 +644,9 @@ h4 {
 .content-panel p:last-child {
   margin-bottom: 0;
 }
+.content-panel h3 {
+    margin-top: 1.5rem;
+}
 
 .mini-table {
   display: grid;
