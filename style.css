@@ -1918,13 +1918,35 @@ h4,
     align-items: stretch;
 }
 
-/* Phần tài liệu dự án giống Bài 1 */
-.intro-section .content-panel {
-    margin-top: 1rem;
-    padding: 1rem;
+/* Tài liệu dự án giống Bài 1 */
+.project-document {
+    margin-top: 2rem;
+    padding: 2rem;
     background: var(--paper);
     border: 1px solid var(--ink);
     border-radius: 0;
+}
+
+.project-document h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.project-document p {
+    margin-bottom: 1.5rem;
+}
+
+.button.google-drive {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    border: 2px solid var(--ink);
+    border-radius: 999px;
+    background: var(--paper);
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 .intro-section .content-panel h4 {
